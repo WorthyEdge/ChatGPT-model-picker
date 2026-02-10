@@ -91,7 +91,7 @@ NOT for:
 - Circumventing payment systems
 
 # License
-MIT
+MIT. <br>
 Do whatever you want, just don't pretend it's official
 
 # Credits
