@@ -84,6 +84,7 @@ This script is for:
 - Researchers
 - Developers
 - People who miss having **actual choice**
+
 NOT for:
 - Automation
 - Abuse
