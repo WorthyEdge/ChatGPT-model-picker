@@ -66,7 +66,7 @@ This script does 2 things:
 4. Use the new model picker in the top-left header, where the "ChatGPT" text is present
 
 # Persistence
-Your selected model is saved localyl and automatically restored on:
+Your selected model is saved locally and automatically restored on:
 - Page reload
 - New chats
 - New tabs
