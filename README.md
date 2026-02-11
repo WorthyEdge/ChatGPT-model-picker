@@ -61,15 +61,15 @@ Yes, it does force the model you want to use, but that still comes with limitati
 - You can't access models that were never available to your plan
   - If you're on Plus, the GPT-5.x Pro models won't be available to you.
   - If you're on Free/Go, GPT-5.x Thinking and Pro models, o3 and o4-mini won't be available to you
-    - In both cases you'll get the error `You've hit your limit. Please try again later` and your message won't be sent
+    - In both cases you'll get the error `You've hit your limit. Please try again later.` and your message won't be sent
 - It won't prevent safety routing
   - The router is a pain, but no model-forcing userscript can bypass it as far as I know. If you send a sensitive or emotional message, no matter what, your message will be routed to the latest Instant model (currently GPT-5.2 Instant)
 - If a model never existed in the backend or has been removed, the userscript can't revive it
   - This includes pretty much everything inside "Ultra-legacy", o3-mini, o1-mini, etc.
     - Calling these models is treated the same as calling an equivalent GPT-5.x model
-  - If you modify the script to call GPT-4o-mini or GPT-4.1-mini, they won't work.
+  - If you try to call GPT-4o-mini or GPT-4.1-mini, they won't work.
     - Calling GPT-4o-mini just calls GPT-5-mini
-    - Calling GPT-4.1-mini gives the `Model not found` error
+    - Calling GPT-4.1-mini gives the `Model not found.` error
   - On Free/Go, calling GPT-4o won't work either
     - It was previously treated as calling GPT-5, now as GPT-5.2
 # Installation
