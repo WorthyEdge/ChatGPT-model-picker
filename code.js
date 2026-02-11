@@ -7,6 +7,7 @@
 // @grant        GM.setValue
 // @run-at       document-start
 // @version      1.01
+// @license      MIT
 // ==/UserScript==
 
 (function() {
