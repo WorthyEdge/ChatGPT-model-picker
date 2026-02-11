@@ -140,7 +140,7 @@
                         {id: 'gpt-5', name: 'GPT-5 Instant', display: '5 Instant', desc: 'Previous flagship for general chat'},
                         {id: 'gpt-5-thinking', name: 'GPT-5 Thinking', display: '5 Thinking', desc: 'Uses advanced reasoning'},
                         {id: 'gpt-5-pro', name: 'GPT-5 Pro', display: '5 Pro', desc: 'Previous best at reasoning'},
-                        {id: 'gpt-5-mini', name: 'GPT-5 Mini', display: '5 Mini', desc: 'Fastest for everyday tasks'}
+                        {id: 'gpt-5-mini', name: 'GPT-5 Mini', display: '5-mini', desc: 'Faster for everyday tasks'}
                     ])}
 
                     <div style="height: 1px; background: #424242; margin: 4px 8px;"></div>
@@ -149,7 +149,9 @@
                     ${createCategory("Chat", [
                         {id: 'gpt-4o', name: 'GPT-4o', display: '4o', desc: 'Great for most tasks'},
                         {id: 'gpt-4-1', name: 'GPT-4.1', display: '4.1', desc: 'Great for quick coding'},
-                        {id: 'gpt-4-5', name: 'GPT-4.5', display: '4.5', desc: 'Powerful for creative writing'}
+                        {id: 'gpt-4-5', name: 'GPT-4.5', display: '4.5', desc: 'Powerful for creative writing'},
+                        {id: 'gpt-4-1-mini', name: 'GPT-4.1-mini', display: '4.1-mini', desc: 'Faster for structured tasks'},
+                        {id: 'gpt-4o-mini', name: 'GPT-4o-mini', display: '4o-mini', desc: 'Faster for general tasks'}
                     ])}
                     ${createCategory("Thinking", [
                         {id: 'o3', name: 'o3', display: 'o3', desc: 'Uses advanced reasoning'},
