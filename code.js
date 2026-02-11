@@ -1,7 +1,8 @@
 // ==UserScript==
 // @name         ChatGPT model picker + extras
 // @author       Worthy
-// @match        https://chatgpt.com/*
+// @match        https://chatgpt.com/
+// @match        https://chatgpt.com/c/*
 // @grant        unsafeWindow
 // @grant        GM.getValue
 // @grant        GM.setValue
