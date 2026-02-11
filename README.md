@@ -27,7 +27,9 @@ Legacy section:
   - GPT-4o
   - GPT-4.1
   - GPT-4.5
-- Legacy:
+  - GPT-4.1-mini
+  - GPT-4o-mini
+- Thinking:
   - o3
   - o4-mini
   - o3-mini
